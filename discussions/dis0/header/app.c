@@ -8,5 +8,6 @@ int main(int argc, char **argv) {
 
     char *result = helper_func(&helper_args);
     printf("%s\n", result);
+    printf("%lu\n", sizeof(helper_args_t));
     return 0;
 }
